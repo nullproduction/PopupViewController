@@ -19,6 +19,8 @@
 		CE24DFF0184A03FA00096503 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE24DFD8184A03FA00096503 /* UIKit.framework */; };
 		CE24DFF8184A03FA00096503 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE24DFF6184A03FA00096503 /* InfoPlist.strings */; };
 		CE24DFFA184A03FA00096503 /* PopupViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE24DFF9184A03FA00096503 /* PopupViewControllerTests.m */; };
+		CE24E005184A041200096503 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE24E004184A041200096503 /* MainViewController.m */; };
+		CE24E008184A042B00096503 /* PopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE24E007184A042B00096503 /* PopupViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		CE24DFF5184A03FA00096503 /* PopupViewControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PopupViewControllerTests-Info.plist"; sourceTree = "<group>"; };
 		CE24DFF7184A03FA00096503 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE24DFF9184A03FA00096503 /* PopupViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopupViewControllerTests.m; sourceTree = "<group>"; };
+		CE24E003184A041200096503 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		CE24E004184A041200096503 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		CE24E006184A042B00096503 /* PopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupViewController.h; sourceTree = "<group>"; };
+		CE24E007184A042B00096503 /* PopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,10 @@
 			children = (
 				CE24DFE3184A03FA00096503 /* AppDelegate.h */,
 				CE24DFE4184A03FA00096503 /* AppDelegate.m */,
+				CE24E003184A041200096503 /* MainViewController.h */,
+				CE24E004184A041200096503 /* MainViewController.m */,
+				CE24E006184A042B00096503 /* PopupViewController.h */,
+				CE24E007184A042B00096503 /* PopupViewController.m */,
 				CE24DFE6184A03FA00096503 /* Images.xcassets */,
 				CE24DFDB184A03FA00096503 /* Supporting Files */,
 			);
@@ -240,7 +250,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE24DFE5184A03FA00096503 /* AppDelegate.m in Sources */,
+				CE24E005184A041200096503 /* MainViewController.m in Sources */,
 				CE24DFE1184A03FA00096503 /* main.m in Sources */,
+				CE24E008184A042B00096503 /* PopupViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
